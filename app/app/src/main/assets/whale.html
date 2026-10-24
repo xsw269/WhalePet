@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<style>
+  html,body{margin:0;padding:0;height:100%;background:transparent;overflow:hidden;}
+  svg{width:100%;height:100%;overflow:visible;}
+</style>
+</head>
+<body>
+<svg viewBox="0 0 420 480" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="eyeG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="finG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="skinG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe9dc"/>
+      <stop offset="100%" stop-color="#ffd6bf"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0;0 -14;0 0" dur="3.4s" repeatCount="indefinite"/>
+
+    <g transform="translate(250,332)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate"
+          values="-6;9;-6" dur="1.8s" repeatCount="indefinite"/>
+        <path d="M0 0 C50 18,92 2,112 -30 C106 -2,110 20,126 36 C94 36,62 30,36 20 C16 13,4 8,0 0 Z" fill="url(#finG)"/>
+        <path d="M14 4 C52 14,82 6,100 -14" stroke="#e0f2fe" stroke-width="3" fill="none" opacity=".7" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <ellipse cx="210" cy="188" rx="82" ry="80" fill="url(#hair)"/>
+    <path d="M138 205 C124 250,120 305,128 358 C146 340,152 300,154 262 Z" fill="url(#hair)"/>
+    <path d="M282 205 C296 250,300 305,292 358 C274 340,268 300,266 262 Z" fill="url(#hair)"/>
+    <rect x="196" y="244" width="28" height="34" rx="13" fill="#ffd6bf"/>
+    <path d="M162 268 Q210 250,258 268 L272 352 Q210 372,148 352 Z" fill="#f8fbff"/>
+    <path d="M162 268 Q210 288,258 268 Q246 300,210 308 Q174 300,162 268 Z" fill="#1e3a8a"/>
+    <circle cx="210" cy="302" r="8" fill="#f43f5e"/>
+    <circle cx="210" cy="302" r="4" fill="#fb7185"/>
+    <path d="M148 352 Q210 372,272 352" stroke="#93c5fd" stroke-width="4" fill="none"/>
+
+    <path d="M146 196 C114 184,88 200,82 228 C104 236,128 228,146 212 Z" fill="url(#finG)"/>
+    <path d="M140 202 C118 196,100 206,94 222" stroke="#e0f2fe" stroke-width="3" fill="none" opacity=".75" stroke-linecap="round"/>
+    <path d="M274 196 C306 184,332 200,338 228 C316 236,292 228,274 212 Z" fill="url(#finG)"/>
+    <path d="M280 202 C302 196,320 206,326 222" stroke="#e0f2fe" stroke-width="3" fill="none" opacity=".75" stroke-linecap="round"/>
+
+    <ellipse cx="210" cy="190" rx="68" ry="66" fill="url(#skinG)"/>
+
+    <g transform="translate(182,196)">
+      <g>
+        <animateTransform attributeName="transform" type="scale"
+          values="1 1;1 1;1 .1;1 1" keyTimes="0;.88;.94;1" dur="4.6s" repeatCount="indefinite"/>
+        <ellipse rx="15" ry="19" fill="#fff"/>
+        <ellipse rx="11" ry="15" fill="url(#eyeG)"/>
+        <circle r="6" fill="#0b1220"/>
+        <circle cx="-4" cy="-7" r="4.2" fill="#fff"/>
+        <circle cx="5" cy="7" r="2.2" fill="#fff" opacity=".85"/>
+      </g>
+    </g>
+    <g transform="translate(238,196)">
+      <g>
+        <animateTransform attributeName="transform" type="scale"
+          values="1 1;1 1;1 .1;1 1" keyTimes="0;.88;.94;1" dur="4.6s" repeatCount="indefinite"/>
+        <ellipse rx="15" ry="19" fill="#fff"/>
+        <ellipse rx="11" ry="15" fill="url(#eyeG)"/>
+        <circle r="6" fill="#0b1220"/>
+        <circle cx="-4" cy="-7" r="4.2" fill="#fff"/>
+        <circle cx="5" cy="7" r="2.2" fill="#fff" opacity=".85"/>
+      </g>
+    </g>
+
+    <ellipse cx="160" cy="224" rx="14" ry="7" fill="#fb7185" opacity=".45"/>
+    <ellipse cx="260" cy="224" rx="14" ry="7" fill="#fb7185" opacity=".45"/>
+    <path d="M204 228 Q210 236 216 228" stroke="#e11d48" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <path d="M142 186 C146 118,176 100,210 100 C244 100,274 118,278 186 C266 152,246 136,226 144 C216 128,196 128,188 146 C168 136,150 152,142 186 Z" fill="url(#hair)"/>
+    <path d="M176 116 C168 132,166 148,170 162" stroke="#a5f3fc" stroke-width="5" fill="none" opacity=".55" stroke-linecap="round"/>
+    <path d="M244 118 C252 134,254 150,250 164" stroke="#a5f3fc" stroke-width="5" fill="none" opacity=".55" stroke-linecap="round"/>
+
+    <g transform="translate(272,146) rotate(16)">
+      <path d="M0 0 C8 -6,18 -8,24 -4 C20 2,18 8,20 14 C12 12,4 8,0 0 Z" fill="#facc15"/>
+      <circle cx="2" cy="2" r="3" fill="#fde68a"/>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values=".85;1;.85" dur="2.2s" repeatCount="indefinite"/>
+      <path d="M210 98 L210 62" stroke="#7dd3fc" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+      <circle cx="198" cy="58" r="6" fill="#7dd3fc" opacity=".9"/>
+      <circle cx="224" cy="52" r="5" fill="#7dd3fc" opacity=".9"/>
+      <circle cx="210" cy="42" r="8" fill="#bae6fd"/>
+      <circle cx="210" cy="42" r="3.5" fill="#fff" opacity=".8"/>
+    </g>
+  </g>
+</svg>
+
+<script>
+(function(){
+  var themes = {
+    classic: { hair: ['#67e8f9','#38bdf8','#2563eb'], eye: ['#38bdf8','#1e3a8a'], fin: ['#7dd3fc','#0ea5e9'] },
+    pink:    { hair: ['#fbcfe8','#f472b6','#be185d'], eye: ['#f472b6','#831843'], fin: ['#f9a8d4','#ec4899'] },
+    violet:  { hair: ['#ddd6fe','#a78bfa','#6d28d9'], eye: ['#a78bfa','#4c1d95'], fin: ['#c4b5fd','#8b5cf6'] }
+  };
+
+  function apply() {
+    var key = (location.hash || '').replace('#','') || 'classic';
+    var t = themes[key] || themes.classic;
+
+    var hs = document.querySelectorAll('#hair stop');
+    for (var i = 0; i < hs.length; i++) hs[i].setAttribute('stop-color', t.hair[i]);
+
+    var es = document.querySelectorAll('#eyeG stop');
+    for (var j = 0; j < es.length; j++) es[j].setAttribute('stop-color', t.eye[j]);
+
+    var fs = document.querySelectorAll('#finG stop');
+    for (var k = 0; k < fs.length; k++) fs[k].setAttribute('stop-color', t.fin[k]);
+  }
+
+  window.addEventListener('hashchange', apply);
+  apply();
+})();
+</script>
+</body>
+</html>
